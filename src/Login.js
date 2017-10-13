@@ -10,7 +10,7 @@ class Login extends Component {
                 <h1>Login</h1>
                 <form>
                     <div className="bbb">
-                        <img src={logoPic} height='100px' width='100px' /> <br />
+                        <img src={logoPic} height='100px' width='100px' alt="profile pic is here" /> <br />
                         <label><b>Username</b></label>
                         <input type="text" placeholder="Enter Username" name="uname" required /> <br />
 
@@ -18,12 +18,12 @@ class Login extends Component {
                         <input type="password" placeholder="Enter Password" name="psw" required /> <br />
 
                         <button type="submit">Login</button>
-                        <input type="checkbox" checked="checked" /> Remember me <br />
+                        <input type="checkbox" checked="checked" readOnly/> Remember me <br />
                     </div>
 
                     <div>
-                        <button type="button" class="cancelbtn">Cancel</button>
-                        <span class="psw">Forgot <a href="#">password?</a></span>
+                        <button type="button" className="cancelbtn">Cancel</button>
+                        <span className="psw">Forgot <a>password?</a></span>
                     </div>
                 </form>
             </div>
