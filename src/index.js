@@ -11,7 +11,6 @@ import registerServiceWorker from './registerServiceWorker';
 import { Switch } from 'react-router-dom';
 
 //ReactDOM.render(<App />, document.getElementById('root'));
-// hell index
 
 ReactDOM.render((
     <Root>

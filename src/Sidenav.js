@@ -27,6 +27,12 @@ const Sidenav = () => {
                 Login   
             </Link>
         </span>
+        |
+        <span className="liwidth">
+            <Link to="/users">
+                Users
+            </Link> 
+        </span>
     </div>
   );
 };

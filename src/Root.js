@@ -12,6 +12,7 @@ import Home from './Home';
 import About from './About';
 import Signup from './Signup';
 import Login from './Login';
+import Users from './Users';
 //import Test from './Test';
 
 const Root = (props) => {
@@ -23,6 +24,7 @@ const Root = (props) => {
           <Route path="/about" component={About} />
           <Route path="/signup" component={Signup} />
           <Route path="/login" component={Login} />
+          <Route path="/users" component={Users} />
           <Route path="*" component={Home} />
         </Switch>
       </App>
